@@ -15,13 +15,6 @@
     "Wolfgang Faust (http://www.linestarve.com)",
     "Zach Hale <zachhale@gmail.com> (http://zachhale.com)"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aashutoshrathi/word-wrap.git"
-  },
-  "bugs": {
-    "url": "https://github.com/aashutoshrathi/word-wrap/issues"
-  },
   "license": "MIT",
   "files": [
     "index.js",
@@ -31,51 +24,5 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "scripts": {
-    "test": "mocha"
-  },
-  "devDependencies": {
-    "gulp-format-md": "^0.1.11",
-    "mocha": "^10.2.0"
-  },
-  "keywords": [
-    "break",
-    "carriage",
-    "line",
-    "new-line",
-    "newline",
-    "return",
-    "soft",
-    "text",
-    "word",
-    "word-wrap",
-    "words",
-    "wrap"
-  ],
-  "typings": "index.d.ts",
-  "verb": {
-    "toc": false,
-    "layout": "default",
-    "tasks": [
-      "readme"
-    ],
-    "plugins": [
-      "gulp-format-md"
-    ],
-    "lint": {
-      "reflinks": true
-    },
-    "related": {
-      "list": [
-        "common-words",
-        "shuffle-words",
-        "unique-words",
-        "wordcount"
-      ]
-    },
-    "reflinks": [
-      "verb",
-      "verb-generate-readme"
-    ]
-  }
+  "typings": "index.d.ts"
 }
